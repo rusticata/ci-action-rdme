@@ -24,5 +24,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: cargo-rdme
-        uses: rusticata/ci-action-rdme@master
+        uses: rusticata/ci-action-rdme@v1
 ```
