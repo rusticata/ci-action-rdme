@@ -22,4 +22,4 @@ runs:
       if: steps.cache-cargo-rdme.outputs.cache-hit != 'true'
     - name: Run cargo-rdme
       shell: bash
-      run: cargo cargo-rdme -c
+      run: cargo rdme -c
